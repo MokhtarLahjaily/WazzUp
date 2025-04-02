@@ -1,6 +1,6 @@
 <h1>How the Chat App Works</h1>
-<p></p>The application uses Socket.io to enable real-time communication between users. Here's a breakdown of the components:</p>
-<p></p>Server-Side (Node.js):</p>
+<p>The application uses Socket.io to enable real-time communication between users. Here's a breakdown of the components:</p>
+<p>Server-Side (Node.js):</p>
 
 <p>Creates an Express server with Socket.io integration</p>
 <p>Manages user connections and disconnections</p>
