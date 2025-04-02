@@ -1,40 +1,47 @@
-How the Chat App Works
-The application uses Socket.io to enable real-time communication between users. Here's a breakdown of the components:
-Server-Side (Node.js):
+<h1>How the Chat App Works</h1>
+<p></p>The application uses Socket.io to enable real-time communication between users. Here's a breakdown of the components:</p>
+<p></p>Server-Side (Node.js):</p>
 
-Creates an Express server with Socket.io integration
-Manages user connections and disconnections
-Broadcasts messages to all connected clients
-Tracks and broadcasts user typing status
-Maintains a list of online users
+<p>Creates an Express server with Socket.io integration</p>
+<p>Manages user connections and disconnections</p>
+<p>Broadcasts messages to all connected clients</p>
+<p>Tracks and broadcasts user typing status</p>
+<p>Maintains a list of online users</p>
 
-Client-Side (Browser):
+<h2>Client-Side (Browser):</h2>
 
-Provides a user-friendly interface for chatting
-Handles joining the chat with a username
-Displays incoming and outgoing messages
-Shows typing indicators when someone is typing
-Lists all online users
+<p>Provides a user-friendly interface for chatting</p>
+<p>Handles joining the chat with a username</p>
+<p>Displays incoming and outgoing messages</p>
+<p>Shows typing indicators when someone is typing</p>
+<p>Lists all online users</p>
 
-Features:
+<h1>Features:</h1>
 
-Real-time messaging without page refresh
-"User is typing" indicators
-Join/leave notifications
-Responsive design for desktop and mobile
-User list panel showing who's online
-System messages for user activities
+<p>Real-time messaging without page refresh</p>
+<p>"User is typing" indicators</p>
+<p>Join/leave notifications</p>
+<p>Responsive design for desktop and mobile</p>
+<p>User list panel showing who's online</p>
+<p>System messages for user activities</p>
 
-How to Run the Application
+<h2>How to Run the Application</h2>
 
-Create a new directory for your project
-Install the required packages:
-Copiernpm init -y
-npm install express socket.io
+<p>Create a new directory for your project</p>
 
-Create the files as shown in the artifact
-Start the server:
-Copiernode server.js
 
-Visit http://localhost:3000 in your browser
-Open multiple browser windows to simulate different users
+<p>Install the required packages:</p>
+
+<p>npm init -y</p>
+
+<p>npm install express socket.io</p>
+
+
+<p>Start the server:</p>
+
+
+<p>node server.js</p>
+
+<p>Visit http://localhost:3000 in your browser</p>
+
+<p>Open multiple browser windows to simulate different users</p>
