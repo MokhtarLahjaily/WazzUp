@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         joinContainer.style.display = 'none';
         chatBox.style.display = 'flex';
         
-        // Add a welcome message
+        
         addMessage('System', `Welcome to the chat, ${username}!`, 'system');
       }
     });
