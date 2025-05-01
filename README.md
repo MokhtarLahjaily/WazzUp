@@ -1,4 +1,5 @@
 <h1>WazzUp - Dockerized Real-time Chat Application</h1>
+<img src="captures/appview.png" alt="App View" width="600"/>
 <p>A lightweight, real-time chat application built with Node.js, Express, and Socket.io, conveniently packaged as a Docker image.</p>
 
 <h2>Features</h2>
